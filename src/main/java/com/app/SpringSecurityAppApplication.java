@@ -70,7 +70,7 @@ public class SpringSecurityAppApplication {
 			//CREATE USERS
 			UserEntity userSantiago = UserEntity.builder()
 					.username("santiago")
-					.password(new BCryptPasswordEncoder().encode("1234"))
+					.password("$2a$10$ctSZRJhDbx8O6Gc.7982l.eni4nTUB4FeC1Zc9BnXY5hEvNN/r7SC")
 					.isEnabled(true)
 					.credentialNoExpired(true)
 					.accountNoExpired(true)
@@ -80,7 +80,7 @@ public class SpringSecurityAppApplication {
 
 			UserEntity userJavier = UserEntity.builder()
 					.username("javier")
-					.password(new BCryptPasswordEncoder().encode("1234"))
+					.password("$2a$10$ctSZRJhDbx8O6Gc.7982l.eni4nTUB4FeC1Zc9BnXY5hEvNN/r7SC")
 					.isEnabled(true)
 					.credentialNoExpired(true)
 					.accountNoExpired(true)
@@ -90,7 +90,7 @@ public class SpringSecurityAppApplication {
 
 			UserEntity userInvitada = UserEntity.builder()
 					.username("invitada")
-					.password( new BCryptPasswordEncoder().encode("1234"))
+					.password("$2a$10$ctSZRJhDbx8O6Gc.7982l.eni4nTUB4FeC1Zc9BnXY5hEvNN/r7SC")
 					.isEnabled(true)
 					.credentialNoExpired(true)
 					.accountNoExpired(true)
